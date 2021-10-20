@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    font-family: ‘Whitney’, sans-serif;
+}
+
+.clearfix::after {
+    content:'';
+    display: table;
+    clear: both;
+}
+
+header {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 500px;
+}
+
+nav {
+    width: 80%;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 60px;
+}
+
+.logo {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.logo-container, .sign-in {
+    width: 25%;
+    
+}
+
+.menu {
+    width: 50%;
+}
+
+.menu-list {
+    list-style-type: none;
+}
+
+.menu-list > li {
+    display: inline-block;
+}
+
+.menu .menu-list a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.menu .menu-list a:hover,
+.menu .menu-list a:active,
+.menu .menu-list a:focus {
+    text-decoration: underline;
+}
+
+nav > div {
+    float: left;
+    height: 100%;
+}
