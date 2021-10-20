@@ -39,6 +39,10 @@ nav {
     
 }
 
+a {
+    text-decoration: none;
+}
+
 .menu {
     width: 50%;
 }
@@ -52,7 +56,6 @@ nav {
 }
 
 .menu .menu-list a {
-    text-decoration: none;
     color: white;
     font-weight: bold;
     margin-right: 25px;
@@ -67,4 +70,16 @@ nav {
 nav > div {
     float: left;
     height: 100%;
+}
+
+.btn {
+    padding: 0.6em 0.7em;
+    border-radius: 20px;
+}
+
+
+.sign-btn {
+    background-color: white;
+    color: black;
+    font-weight: bold;
 }
