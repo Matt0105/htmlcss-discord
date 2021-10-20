@@ -133,6 +133,7 @@ nav > div {
 .info-container {
     width: 80%;
     margin: 6em auto;
+    padding-left: 5em;
 }
 
 .info-img, .info-desc {
@@ -152,9 +153,9 @@ nav > div {
     width: 80%;
 }
 
-.info-img {
+/* .info-img {
     text-align: center;
-}
+} */
 
 .info-title {
     font-size: 1.8em;
@@ -167,4 +168,9 @@ nav > div {
     font-size: 0.8em;
     line-height: 1.7em;
     width: 50%;
+}
+
+.bg-grey {
+    width: 100%;
+    background-color: rgb(243, 239, 239);
 }
