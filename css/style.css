@@ -161,6 +161,9 @@ nav > div {
     font-size: 1.8em;
     line-height: 1.3em;
     margin-bottom: 0.7em;
+}
+
+.info-desc.info-title {
     width: 50%;
 }
 
@@ -172,5 +175,32 @@ nav > div {
 
 .bg-grey {
     width: 100%;
+    padding: 2em 0;
     background-color: rgb(243, 239, 239);
+}
+
+.last-section {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.last-section-info > p {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.action > img {
+    margin-bottom: -20px;
+}
+
+.action > h3 {
+    font-size: 1.7em;
+    margin-top: 0;
+    margin-bottom: 1.8em;
+}
+
+.action > .download {
+    background-color: #8ea1e1;
+    color: white;
 }
