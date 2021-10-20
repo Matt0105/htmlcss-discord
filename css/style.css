@@ -86,7 +86,7 @@ nav > div {
 }
 
 .btn {
-    padding: 0.6em 0.7em;
+    padding: 0.5em 0.7em;
     border-radius: 20px;
 }
 
@@ -247,6 +247,7 @@ nav > div {
     width: 80%;
     margin: 0 auto;
     padding: 3em 0;
+    border-bottom: 1px solid #7289da;
 }
 
 .footer-container .float {
@@ -303,4 +304,27 @@ nav > div {
 
 .btn:hover {
     box-shadow: 5px 5px 7px rgba(0,0,0,0.5);
+}
+
+.bottom-footer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+
+.bottom-footer .logo-container {
+    float: left;
+    width: 50%;
+}
+
+.bottom-footer .register-btn-containter {
+    float: left;
+    width: 50%;
+}
+
+.register-btn {
+    float: right;
+    background-color: #8ea1e1;
+    color: white;
+    font-size: 0.7em;
 }
