@@ -18,7 +18,6 @@ html {
 header {
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    height: 500px;
 }
 
 footer {
@@ -44,7 +43,6 @@ nav {
 
 .logo-container, .sign-in {
     width: 25%;
-    
 }
 
 a {
@@ -105,7 +103,8 @@ nav > div {
     color: white;
     line-height: 1.7em;
     text-align: center;
-    padding: 5em 0;
+    padding: 6em 0;
+    padding-bottom: 10em;
 }
 
 .jumbo-title {
@@ -138,8 +137,6 @@ nav > div {
  {
     color: #3161e0;
 }
-
-
 
 .open {
     background-color: #23272A;
@@ -180,24 +177,17 @@ nav > div {
     width: 80%;
 }
 
-/* .info-img {
-    text-align: center;
-} */
-
 .info-title {
     font-size: 1.8em;
     line-height: 1.3em;
     margin-bottom: 0.7em;
-}
-
-.info-desc.info-title {
-    width: 50%;
+    width: 70%;
 }
 
 .info-desc > p {
     font-size: 0.8em;
     line-height: 1.7em;
-    width: 50%;
+    width: 70%;
 }
 
 .bg-grey {
@@ -277,7 +267,7 @@ nav > div {
 
 .socials-link {
     list-style-type: none;
-    margin-top: 0.5em;
+    margin-top: 0.8em;
 }
 
 .socials-link > li {
@@ -286,6 +276,22 @@ nav > div {
 
 .socials-link li a{
     margin: 5px;
+}
+
+.socials-link .twitter:hover {
+    color: #1DA1F2;
+}
+
+.socials-link .instagram:hover {
+    color: #b93a79;
+}
+
+.socials-link .facebook:hover {
+    color: #4267B2;
+}
+
+.socials-link .youtube:hover {
+    color: #FF0000;
 }
 
 .footer-side-links {
