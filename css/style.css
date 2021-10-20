@@ -21,6 +21,12 @@ header {
     height: 500px;
 }
 
+footer {
+    background-color: #23272a;
+    border-top: 2px solid #7289da;
+    color: white;
+}
+
 /* navbar */
 
 nav {
@@ -203,4 +209,50 @@ nav > div {
 .action > .download {
     background-color: #8ea1e1;
     color: white;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 3em 0;
+}
+
+.footer-container .float {
+    float:left;
+}
+
+.footer-container a {
+    color: white;
+}
+
+.footer-title {
+    color: #7289da;
+    margin-bottom: 0.5em;
+}
+
+
+.social {
+    width: 30%; 
+    height: 200px;
+}
+
+.product, 
+.company, 
+.resource, 
+.norm {
+    width: 17.5%;
+    height: 200px;
+}
+
+.socials-link {
+    list-style-type: none;
+    margin-top: 0.5em;
+}
+
+.socials-link > li {
+    display: inline-block;
+}
+
+.socials-link li a{
+    margin: 5px;
 }
