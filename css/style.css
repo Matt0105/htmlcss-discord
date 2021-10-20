@@ -21,6 +21,8 @@ header {
     height: 500px;
 }
 
+/* navbar */
+
 nav {
     width: 80%;
     height: 60px;
@@ -82,4 +84,45 @@ nav > div {
     background-color: white;
     color: black;
     font-weight: bold;
+}
+
+/* jumbotron */
+
+.jumbotron {
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    line-height: 1.7em;
+    text-align: center;
+    padding: 5em 0;
+}
+
+.jumbo-title {
+    font-size: 2.5em;
+    word-spacing: 5px;
+}
+
+.jumbo-text {
+    font-size: 1.1em;
+    margin-top: 2.5em;
+    margin-bottom: 1.5em;
+}
+
+.download {
+    background-color: white;
+    color: black;
+    margin-right: 1.2em;
+}
+
+.open {
+    background-color: #23272A;
+    color: white;
+}
+
+.big {
+    padding: 0.8em 1.2em;
+}
+
+.arrow {
+    font-size: 0.8em;
 }
