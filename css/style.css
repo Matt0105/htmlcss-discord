@@ -126,3 +126,45 @@ nav > div {
 .arrow {
     font-size: 0.8em;
 }
+
+
+/* main */
+
+.info-container {
+    width: 80%;
+    margin: 6em auto;
+}
+
+.info-img, .info-desc {
+    float: left;
+}
+
+.info-img {
+    width: 60%;
+}
+
+.info-desc {
+    width: 40%;
+    padding-top: 1.7em;
+}
+
+.info-img > img {
+    width: 80%;
+}
+
+.info-img {
+    text-align: center;
+}
+
+.info-title {
+    font-size: 1.8em;
+    line-height: 1.3em;
+    margin-bottom: 0.7em;
+    width: 50%;
+}
+
+.info-desc > p {
+    font-size: 0.8em;
+    line-height: 1.7em;
+    width: 50%;
+}
