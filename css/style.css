@@ -200,6 +200,10 @@ nav > div {
     margin-bottom: -20px;
 }
 
+.action {
+    margin-bottom: 4em;
+}
+
 .action > h3 {
     font-size: 1.7em;
     margin-top: 0;
@@ -210,6 +214,8 @@ nav > div {
     background-color: #8ea1e1;
     color: white;
 }
+
+/* footer */
 
 .footer-container {
     width: 80%;
@@ -255,4 +261,13 @@ nav > div {
 
 .socials-link li a{
     margin: 5px;
+}
+
+.footer-side-links {
+    list-style-type: none;
+    font-size: 0.8em;
+}
+
+.footer-side-links li {
+    margin-bottom: 0.5em;
 }
